@@ -16,6 +16,10 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 h1,
@@ -60,13 +64,6 @@ ol {
   white-space: nowrap;
 }
 
-.page {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
 .content {
   display: flex;
   flex-direction: row;
@@ -92,7 +89,7 @@ ol {
   margin-top: 16px;
 }
 
-.search-form__fieldset{
+.search-form__fieldset {
   display: flex;
   flex-direction: column;
   border: none;
@@ -139,7 +136,7 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  font-family: "Fira Sans Condensed", Arial, sans-serif;;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: rgb(255 255 255 / 0.7);
@@ -166,7 +163,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__checkbox:checked + ::after{
+.search-form__checkbox:checked + ::after {
   opacity: 1;
 }
 
@@ -174,7 +171,7 @@ ol {
   text-decoration: underline;
 }
 
-.button{
+.button {
   border: 1px solid #fff;
   font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
@@ -208,7 +205,7 @@ ol {
   align-self: end;
 }
 
-.search-form__more-button{
+.search-form__more-button {
   width: 100%;
 }
 
