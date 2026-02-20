@@ -199,7 +199,6 @@ ol {
 }
 
 .search-form__submit-button {
-  /* 194 x 34 */
   width: 194px;
   height: 34px;
   align-self: end;
@@ -230,8 +229,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  height: 300px;
+  height: 299px;
   overflow-y: scroll;
   margin-top:20px;
 }
